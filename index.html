@@ -17,30 +17,47 @@
 
     <div class="main-container">
         <div class="introduction">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <br />
             <p>You <em>know</em> you want to.</p>
         </div>
         <div class="form-container">
-            <h2>Let's do this!</h2>
-            <form action="post">
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" />
+            <p>Let's do this!</p>
+            <form action="post" id="signupform">
+                <div class="input-field">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Mary" required />
+                </div>
 
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" />
+                <div class="input-field">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Sue" required />
+                </div>
 
-                <label for="user-email">Email</label>
-                <input type="email" name="email" id="user-email" />
+                <div class="input-field">
+                    <label for="user-email">Email</label>
+                    <input type="email" name="email" id="user-email" placeholder="you@email.com" required/>
+                </div>
 
-                <label for="user-password">Password</label>
-                <input type="password" name="password" id="user-password" />
+                <div class="input-field">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="###-###-####" required/>
+                </div>
 
-                <label for="confirm-password"> Confirm Password</label>
-                <input type="password" name="confirm-password" id="confirm-password" />
+                <div class="input-field">
+                    <label for="user-password">Password</label>
+                    <input type="password" name="password" id="user-password" required/>
+                </div>
+
+                <div class="input-field">
+                    <label for="confirm-password"> Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required/>
+                </div>
             </form>
         </div>
         <div class="submission">
-            <button>Create Account</button>
+            <button type="submit" form="signupform">Create Account</button>
             <p>Already have an account? <a href="index.html">Log in</a></p>
         </div>
     </div>

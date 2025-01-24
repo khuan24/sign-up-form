@@ -9,7 +9,7 @@
 }
 
 body {
-    --primary-clr: rgb(45, 107, 45);
+    --primary-clr: #596D48;
     --selected-clr: rgb(29, 101, 255);
     --invalid-clr: rgb(247, 45, 45);
 

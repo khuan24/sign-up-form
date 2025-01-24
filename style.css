@@ -28,31 +28,49 @@ em {
 }
 
 .side-container {
-    background-color: var(--primary-clr);
+    background-image: url(resources/halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 35vw;
     min-width: 200px;
     position: relative;
+    display: flex;
 }
 
 .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: 15%;
+    height: 20%;
     position: absolute;
     top: 20%;
 }
 
 .logo-title {
     color: white;
-    font-size: 2rem;
+    font-size: 5rem;
     padding: 1rem;
 }
 
-.logo-title::before {
-    content: "myLogo ";
+.logo-container img {
+    width: 15%;
+}
+
+.photo-credit {
+    color: white;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    font-weight: normal;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+
+.photo-credit a {
+    text-decoration: underline;
+    color: white;
+    font-weight: normal;
 }
 
 .main-container {

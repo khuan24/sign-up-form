@@ -122,6 +122,11 @@ input:not(:placeholder-shown):invalid {
     border: var(--invalid-clr) solid 2px
 }
 
+input[type="password"] {
+    font: large Verdana, sans-serif;
+    letter-spacing: 0.2em;
+}
+
 label {
     display: block;
     font-size: 1rem;

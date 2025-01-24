@@ -27,6 +27,14 @@ em {
     font-style: italic;
 }
 
+@font-face {
+    font-family: "Norse Bold";
+    src: 
+        url(resources/font/Norse-Bold.woff) format("woff"),
+        url(resources/font/Norse-Bold.woff2) format("woff2");
+
+}
+
 .side-container {
     background-image: url(resources/halie-west-25xggax4bSA-unsplash.jpg);
     background-repeat: no-repeat;
@@ -50,8 +58,9 @@ em {
 
 .logo-title {
     color: white;
-    font-size: 5rem;
-    padding: 1rem;
+    font-size: 8rem;
+    font-family: "Norse Bold";
+    padding: 0.5rem;
 }
 
 .logo-container img {
@@ -151,7 +160,7 @@ label {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    color: rgb(59, 59, 59);
+    color: rgb(70, 70, 70);
 }
 
 button {

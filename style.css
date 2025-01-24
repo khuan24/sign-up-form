@@ -107,6 +107,10 @@ p {
     font-weight: normal;
 }
 
+.submission {
+    margin-bottom: 1.2rem;
+}
+
 .form-container {
     background-color: white;
     box-shadow: lightgray 0px 5px 20px;
